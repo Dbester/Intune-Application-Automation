@@ -7,8 +7,7 @@
      
 .EXAMPLE
 
-
-    C:\PS> Create-AADApplicationPart1
+    C:\PS> AppRegistration.ps1
     
 .NOTES
     Edited by : Dirk
@@ -19,9 +18,9 @@
 Connect-AzureAD
 
 
-$appName = "CCMD Intune App"
-$appURI = "https://CCIntuneApp.azurewebsites.com"
-$appHomePageUrl = "https://CCIntuneApp.Contentandcloud.com"
+$appName = "Intune App Registration"
+$appURI = "https://MWPIntuneApp.azurewebsites.com"
+$appHomePageUrl = "https://MWPIntuneApp.Contentandcloud.com"
 $appReplyURLs = @($appURI, $appHomePageURL, "https://localhost:12345")
 $tenantDetails = Get-AzureADTenantDetail
 
