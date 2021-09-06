@@ -68,9 +68,9 @@ function Add-StorageTableRow
 }
 
 # Upload data to Storage Table #
-$storageAccountName = 'ccmd'
-$tableName = 'ApplicationUpdateVersions'
-$sasToken = '?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacupitfx&se=2029-08-09T22:51:06Z&st=2021-08-09T14:51:06Z&spr=https&sig=tRWPp1M7TE%2BmmTBJXN4nIpNZwBCYpE3TAuhAuTVxI%2Fk%3D'
+$storageAccountName = ''
+$tableName = ''
+$sasToken = ''
 $dateTime = get-date
 $partitionKey = 'Adobe'
 $Adobe = @()
